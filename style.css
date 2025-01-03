@@ -86,11 +86,15 @@ input {
 }
 
 input:focus {
-    border: 1px solid blue;
+    border-color: 5px solid blue;
     box-shadow: 0 0 5px blue;
   }
-  
-input:invalid {
+
+input:valid {
+    border: 2px solid green;
+}
+
+input[type="password"]:invalid {
     border: 1px solid red;
 }
 
