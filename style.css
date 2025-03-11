@@ -36,6 +36,10 @@ body {
     width: 100%;
 }
 
+a {
+    cursor: pointer;
+}
+
 .odin-img {
     height: auto;
     top: 50px;
@@ -49,6 +53,11 @@ body {
     font-size: 25px;
     padding-left: 10px;
     top: 50%;
+}
+
+.copyright {
+    color: red;
+    font-size: 50px;
 }
 
 .right-container {
